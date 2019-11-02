@@ -28,6 +28,7 @@ class FailingRule {
   }
 
   async visit(ctx, node) {
+    // stream errors directly to the context
     ctx.error({
       data: {},
       level: 'error',
@@ -36,8 +37,7 @@ class FailingRule {
 
     return {
       changes: [],
-      errors: [],
-      rule: this,
+      errors: [/* or pass them in a group at the end */],
     };
   }
 }
