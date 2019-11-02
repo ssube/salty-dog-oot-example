@@ -1,0 +1,22 @@
+{
+  "name": "salty-dog-oot-example",
+  "version": "0.1.0",
+  "description": "salty-dog out-of-tree rules example",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssube/salty-dog-oot-example.git"
+  },
+  "keywords": [
+    "salty-dog"
+  ],
+  "author": "ssube",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssube/salty-dog-oot-example/issues"
+  },
+  "homepage": "https://github.com/ssube/salty-dog-oot-example#readme"
+}
