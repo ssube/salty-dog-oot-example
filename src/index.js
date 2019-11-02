@@ -1,4 +1,4 @@
-const { ExampleRule } = require('./rule');
+const { ExampleRule, FailingRule } = require('./rule');
 
 module.exports = {
 	name: 'salty-dog-oot-example',
@@ -21,5 +21,6 @@ module.exports = {
 	},
 	rules: [
 		new ExampleRule(),
+		new FailingRule(),
 	],
 };
